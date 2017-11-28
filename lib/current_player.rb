@@ -10,8 +10,5 @@ end
 end
 
 def current_player(board)
-if turn_count % 2 == 0
-  puts "O"
-end
-else puts "X"
+  turn_count(board).even? ? "X" : "O"
   end
