@@ -14,4 +14,5 @@ def current_player(board)
   if count % 2 == 0
     print "X"
   else print "O"
+
   end
